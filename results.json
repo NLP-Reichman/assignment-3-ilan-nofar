@@ -1,33 +1,33 @@
 {
-    "test_read_data": {
-        "lengths": [
-            1750,
-            250,
-            500
-        ]
-    },
-    "test_vocab": {
-        "length": 7163,
-        "tag2id_length": 7,
-        "Spongebob": 1
-    },
-    "test_count_oov": {
-        "dev_oov": 638,
-        "test_oov": 1368
-    },
-    "test_prepare_data_loader": {
-        "lengths": [
-            110,
-            16,
-            32
-        ]
-    },
-    "test_NERNet": {
-        "f1": 0.9223236598234507,
-        "f1_wo_o": 0.9095573483715116
-    },
-    "test_glove": {
-        "f1": 0.9208184462145133,
-        "f1_wo_o": 0.9016947218757072
-    }
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 7,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": {
+    "f1": 0.9161230811081522,
+    "f1_wo_o": 0.8695011774943363
+  },
+  "test_glove": {
+    "f1": 0.9180766430857406,
+    "f1_wo_o": 0.8761472343277377
+  }
 }
